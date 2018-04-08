@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc70550-2f64-4d96-94f7-5f3eddbb3dd2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tools/create_users.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/index.tpl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/showUser.tpl" />
+      <change beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
+      <change beforePath="$PROJECT_DIR$/views/index.tpl" afterPath="$PROJECT_DIR$/views/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/views/showUser.tpl" afterPath="$PROJECT_DIR$/views/showUser.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-975">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
-                <element signature="e#51#115#0" expanded="true" />
+                <element signature="e#51#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showUser.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="showUser.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/showUser.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -41,8 +40,18 @@
       <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="87" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mui.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/mui.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="2331" column="34" lean-forward="false" selection-start-line="2331" selection-start-column="25" selection-end-line="2331" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -57,6 +66,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>button</find>
+      <find>important</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,9 +79,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tools/create_users.py" />
-        <option value="$PROJECT_DIR$/views/showUser.tpl" />
-        <option value="$PROJECT_DIR$/views/index.tpl" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/views/index.tpl" />
+        <option value="$PROJECT_DIR$/views/showUser.tpl" />
       </list>
     </option>
   </component>
@@ -101,7 +116,18 @@
             <path>
               <item name="bottle-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="bottle-project" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bottle-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bottle-project" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bottle-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bottle-project" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bottle-project" type="b2602c69:ProjectViewProjectNode" />
@@ -241,34 +267,42 @@
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
           <folding>
-            <element signature="e#42#67#0" expanded="true" />
+            <element signature="e#42#67#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/showUser.tpl">
+    <entry file="file://$PROJECT_DIR$/static/css/mui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="2331" column="34" lean-forward="false" selection-start-line="2331" selection-start-column="25" selection-end-line="2331" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
-            <element signature="e#51#115#0" expanded="true" />
+            <element signature="e#51#128#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="87" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/showUser.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
