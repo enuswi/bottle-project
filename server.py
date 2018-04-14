@@ -5,15 +5,25 @@ from bottle import route, run, template, request, post, redirect, static_file
 import sqlite3
 
 ###################################
+# 定義
+###################################
+
+
+###################################
 # ルーティング
 ###################################
 
 
-# ユーザー一覧ページ
 @route('/')
 def index():
+    return template('index')
+
+
+# ユーザー一覧ページ
+@route('/userList')
+def show_user_list():
     user_list = get_users()
-    return template('index', user_list=user_list)
+    return template('userList', user_list=user_list)
 
 
 # ユーザー詳細ページ
@@ -59,6 +69,7 @@ def css_static(file_path):
 ###################################
 # 関数
 ###################################
+
 
 def get_users():
     conn = sqlite3.connect('./databases/bottle_project.db')
