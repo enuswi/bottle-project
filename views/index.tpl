@@ -30,11 +30,9 @@
                             <td>{{user[2]}}</td>
                             <td>
                                 <form name="update_user" method="POST" action="/showUser/{{user[0]}}">
-                                    <input type="submit" class="mui-btn mui-btn--primary mui-btn--raised" value="更新">
+                                    <input type="submit" class="mui-btn mui-btn--primary mui-btn--raised" value="詳細">
                                 </form>
-                                <form name="delete_user" method="POST" action="/deleteUser/{{user[0]}}">
-                                    <input type="submit" class="mui-btn mui-btn--primary mui-btn--raised" value="削除">
-                                </form>
+
                             </td>
                         </tr>
                             % end
